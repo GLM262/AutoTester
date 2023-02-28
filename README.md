@@ -12,7 +12,7 @@ A template file is necessary and it will explain all functions within your progr
 
 ### How to create a template
 
-Component name (for reference)
-Data_type (string, int or float)
-Range (for int and float)/[Samples] (for strings)
-Depends on Parent Component [option] (use nil to flag as no parent object)
+Component name (for reference)<br>
+Data_type (string, int or float)<br>
+Range (for int and float)/[Samples] (for strings)<br>
+Depends on Parent Component [option] (use nil to flag as no parent object)<br>
