@@ -1,9 +1,5 @@
-# manages template
-class Template_Handler
-end
-
 # sections helps generate the test scripts
-# interger tests
+# interger tests creation component
 class Int_Tests
     def initialize(lower, upper)
         @lower = lower
@@ -18,7 +14,7 @@ class Int_Tests
     def erroneous_test
     end
 end
-# float tests
+# float tests creation component
 class Float_Tests
     def initialize(lower, upper)
         @lower = lower
@@ -33,7 +29,7 @@ class Float_Tests
     def erroneous_test
     end
 end
-# string tests
+# string tests creation component
 class String_Tests
     def initialize(sample_text)
         @sample_text = sample_text
@@ -60,9 +56,6 @@ class Main
         template = File.new("template.txt","r")
         if template
             data = template.readlines()
-            puts data
-        else
-            puts "Error"
         end
     end
 end
